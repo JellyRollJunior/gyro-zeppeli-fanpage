@@ -58,3 +58,13 @@ h1 {
   -webkit-text-stroke-color: black;
   text-shadow: 5px 5px 5px black;
 }
+
+header h2 {
+  margin-top: 24px;
+  text-align: center;
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.8rem;
+}
