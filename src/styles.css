@@ -97,3 +97,18 @@ header p {
 .pinwheel.layer-three {
   background-color: #6f3582;
 }
+
+.link-holder {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+
+  margin-top: 12px;
+}
+
+button.link {
+  --link-button-size: 50px;
+  width: var(--link-button-size);
+  height: var(--link-button-size);
+  border: 2px solid black;
+}
