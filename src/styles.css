@@ -38,6 +38,10 @@ h6 {
   overflow-wrap: break-word;
 }
 
+header {
+  padding: 32px 42px;
+}
+
 .frame {
   position: relative;
 }
@@ -48,7 +52,7 @@ h1 {
   left: 10px;
 
   color: white;
-  font-size: 7rem;
+  font-size: 6.5rem;
   line-height: 1.1;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
