@@ -1,4 +1,5 @@
-## node-webpack-template
+## Responsive homepage
+- [Lesson link](https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-homepage)
 
 - Contains:
   - webpack
