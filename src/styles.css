@@ -77,6 +77,7 @@ header p {
   bottom: 50%;
   height: 60%;
   width: 100%;
+  z-index: -1;
 }
 
 .pinwheel {
@@ -125,4 +126,54 @@ a.link.icon-linkedin {
 
 a.link.icon-instagram {
   background-image: url(./icons/icons8-instagram-60.png);
+}
+
+@media (min-width: 600px) {
+  h1 {
+    font-size: 2.8rem;
+    top: 24px;
+    left: calc(var(--frame-width) - 55px);
+    white-space: nowrap;
+  }
+
+  .frame {
+    --frame-width: 300px;
+
+    height: 400px;
+    width: var(--frame-width);
+    margin-right: 24px;
+    float: left;
+  }
+
+  .frame > img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 20%;
+  }
+
+  .about {
+    margin-top: 90px;
+    margin-left: 60px;
+    padding: 54px 24px;
+    background-color: white;
+    box-shadow: 2px 2px 8px rgb(60, 60, 60);
+  }
+
+  header h2 {
+    font-size: 2.2rem;
+  }
+
+  header p {
+    margin-top: 18px;
+    font-size: 1.2rem;
+  }
+
+  .link-holder {
+    justify-content: end;
+  }
+
+  a.link {
+    --link-button-size: 40px;
+  }
 }
