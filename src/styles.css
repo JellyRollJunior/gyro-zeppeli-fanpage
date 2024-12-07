@@ -76,12 +76,12 @@ header p {
   left: 0;
   bottom: 50%;
   height: 60%;
-  width: 200%;
+  width: 100%;
 }
 
 .pinwheel {
   height: 100%;
-  width: 100%;
+  width: 150%;
   transform: rotate(-20deg);
   transform-origin: bottom left;
 }
@@ -106,9 +106,24 @@ header p {
   margin-top: 12px;
 }
 
-button.link {
-  --link-button-size: 50px;
+a.link {
+  --link-button-size: 60px;
   width: var(--link-button-size);
   height: var(--link-button-size);
-  border: 2px solid black;
+  padding: 0;
+  border: none;
+  background-color: white;
+  background-size: cover;
+}
+
+a.link.icon-github {
+  background-image: url(./icons/icons8-github-60.png);
+}
+
+a.link.icon-linkedin {
+  background-image: url(./icons/icons8-linkedin-50.png);
+}
+
+a.link.icon-instagram {
+  background-image: url(./icons/icons8-instagram-60.png);
 }
