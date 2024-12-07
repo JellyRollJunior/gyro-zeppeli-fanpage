@@ -94,6 +94,7 @@ h1 {
 
 .pinwheel.layer-one {
   background-color: #ddbda9;
+  box-shadow: 2px 2px 8px rgb(60, 60, 60);
 }
 
 .pinwheel.layer-two {
