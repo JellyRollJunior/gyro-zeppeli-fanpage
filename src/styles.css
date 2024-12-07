@@ -81,8 +81,7 @@ header p {
 
 .pinwheel {
   height: 100%;
-  width: 150%;
-  transform: rotate(-20deg);
+  transform: skewY(-23.5deg);
   transform-origin: bottom left;
 }
 
