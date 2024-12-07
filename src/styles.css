@@ -74,7 +74,7 @@ header p {
 .pinwheel-holder {
   position: absolute;
   left: 0;
-  bottom: 50%;
+  bottom: 60%;
   height: 100%;
   width: 100%;
   z-index: -1;
