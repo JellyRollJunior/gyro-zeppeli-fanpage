@@ -75,14 +75,15 @@ header p {
   position: absolute;
   left: 0;
   bottom: 50%;
-  height: 60%;
+  height: 100%;
   width: 100%;
   z-index: -1;
 }
 
 .pinwheel {
+  --skew: -23.5deg;
   height: 100%;
-  transform: skewY(-23.5deg);
+  transform: skewY(var(--skew));
   transform-origin: bottom left;
 }
 
@@ -175,5 +176,11 @@ a.link.icon-instagram {
 
   a.link {
     --link-button-size: 40px;
+  }
+  .pinwheel-holder {
+    bottom: 25%;
+  }
+  .pinwheel {
+    --skew: -9deg;
   }
 }
