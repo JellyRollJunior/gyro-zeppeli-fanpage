@@ -133,7 +133,7 @@ a.link.icon-instagram {
   background-image: url(./icons/icons8-instagram-60.png);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 600px) and (max-width: 1000px) {
   h1 {
     font-size: 2.8rem;
     top: 24px;
@@ -185,5 +185,36 @@ a.link.icon-instagram {
   .pinwheel-holder {
     --skew: -9deg;
     bottom: 25%;
+  }
+}
+
+@media (min-width: 1000px) {
+  header {
+    display: flex;
+    align-items: center;
+  }
+
+  .frame {
+    min-width: 500px;
+  }
+
+  .about {
+    padding: 1px 24px;
+    background-color: white;
+    box-shadow: 2px 2px 8px rgb(60, 60, 60);
+    text-align: left;
+  }
+
+  .about > h2 {
+    text-align: left;
+  }
+
+  .pinwheel-holder {
+    --skew: -15deg;
+    bottom: 0;
+  }
+
+  .link-holder {
+    justify-content: end;
   }
 }
