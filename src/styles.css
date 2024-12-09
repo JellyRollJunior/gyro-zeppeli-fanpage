@@ -44,17 +44,19 @@ body {
 }
 
 .wrapper {
+  --main-horizontal-padding: 42px;
   max-width: 2000px;
 }
 
 header {
   position: relative;
-  padding: 32px 42px;
+  padding: 32px var(--main-horizontal-padding);
 }
 
 .frame {
   position: relative;
   box-shadow: 2px 2px 8px rgb(60, 60, 60);
+  margin: 12px;
 }
 
 h1 {
@@ -142,6 +144,10 @@ a.link.icon-instagram {
   background-image: url(./icons/icons8-instagram-60.png);
 }
 
+section {
+  padding: 0px var(--main-horizontal-padding);
+}
+
 .gallery {
   --min-card-width: 300px;
 
@@ -153,7 +159,7 @@ a.link.icon-instagram {
 }
 
 .card {
-  height: 600px;
+  height: 450px;
   border: 2px solid black;
 }
 
@@ -167,7 +173,7 @@ a.link.icon-instagram {
   }
 
   .frame {
-    --frame-width: 300px;
+    --frame-width: 325px;
 
     width: var(--frame-width);
     margin-right: 24px;
@@ -175,8 +181,6 @@ a.link.icon-instagram {
   }
 
   .frame > img {
-    height: 100%;
-    width: 100%;
     object-fit: cover;
     object-position: 0 20%;
   }
@@ -224,6 +228,7 @@ a.link.icon-instagram {
 
   .frame {
     min-width: 500px;
+    margin: 0;
   }
 
   .about {
@@ -238,5 +243,9 @@ a.link.icon-instagram {
   .pinwheel-holder {
     --skew: -15deg;
     bottom: 0;
+  }
+
+  .gallery {
+    --min-card-width: 350px;
   }
 }
