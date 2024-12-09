@@ -155,7 +155,6 @@ section {
 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(var(--min-card-width), 1fr));
-  grid-template-rows: repeat(auto-fill, minmax(500px, 1fr));
   gap: 70px 54px;
 
   margin-top: 18px;
@@ -276,5 +275,9 @@ h3 {
 
   .gallery {
     --min-card-width: 350px;
+  }
+
+  .card.col-span-2 {
+    grid-column: span 2;
   }
 }
