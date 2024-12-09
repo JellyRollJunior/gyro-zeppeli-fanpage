@@ -82,7 +82,7 @@ h2 {
   font-size: 3rem;
 }
 
-.about > p {
+p {
   font-size: 1.8rem;
 }
 
@@ -150,17 +150,46 @@ section {
 
 .gallery {
   --min-card-width: 300px;
+  --title-height: 24px;
+  --description-height: 70px;
 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(var(--min-card-width), 1fr));
-  gap: 70px 36px;
+  grid-template-rows: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 70px 54px;
 
   margin-top: 18px;
 }
 
 .card {
-  height: 450px;
+  display: flex;
+  flex-direction: column;
+  
   border: 2px solid black;
+}
+
+.card.row-span-2 {
+  grid-row: span 2;
+}
+
+.card > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card > .info {
+  padding: 16px 24px;
+  min-height: 270px;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+.info > p {
+  font-size: 1.3rem;
 }
 
 /* Tablet styling */
