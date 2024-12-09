@@ -74,7 +74,7 @@ h1 {
   margin: 18px 0;
 }
 
-.about > h2 {
+h2 {
   margin-top: 28px;
   text-align: center;
   font-size: 3rem;
@@ -142,10 +142,14 @@ a.link.icon-instagram {
   background-image: url(./icons/icons8-instagram-60.png);
 }
 
-section.gallery {
+.gallery {
   --min-card-width: 300px;
+
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(var(--min-card-width), 1fr));
+  gap: 70px 36px;
+
+  margin-top: 18px;
 }
 
 .card {
@@ -182,7 +186,7 @@ section.gallery {
     margin-left: 60px;
   }
 
-  .about > h2 {
+  h2 {
     font-size: 2.2rem;
     margin-top: 70px;
   }
