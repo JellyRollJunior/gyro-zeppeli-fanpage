@@ -192,6 +192,7 @@ a.link.icon-instagram {
   header {
     display: flex;
     align-items: center;
+    padding: 42px 56px;
   }
 
   .frame {
