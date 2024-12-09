@@ -142,6 +142,17 @@ a.link.icon-instagram {
   background-image: url(./icons/icons8-instagram-60.png);
 }
 
+section.gallery {
+  --min-card-width: 300px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(var(--min-card-width), 1fr));
+}
+
+.card {
+  height: 600px;
+  border: 2px solid black;
+}
+
 /* Tablet styling */
 @media (min-width: 600px) and (max-width: 1099px) {
   h1 {
