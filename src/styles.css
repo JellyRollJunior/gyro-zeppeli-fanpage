@@ -239,12 +239,14 @@ h3 {
 footer {
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  background-color: white;
-}
+  justify-content: center;
 
-.contact-info {
-  padding: 24px 42px;
+  gap: 24px;
+  width: 100vw;
+  padding: 42px 42px 64px 42px;
+
+
+  background-color: white;
 }
 
 .contact-info > * {
@@ -276,7 +278,6 @@ footer a.link {
 }
 
 footer img {
-  margin: 0px 36px 24px 36px;
   box-shadow: 2px 2px 8px rgb(60, 60, 60);
 }
 
@@ -333,6 +334,14 @@ footer img {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  footer * {
+    text-align: center;
+  }
+
+  footer .link-holder {
+    justify-content: center;
+  }
 }
 
 /* Tablet AND desktop styling */
@@ -383,5 +392,19 @@ footer img {
 
   .gallery {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  footer {
+    flex-direction: row;
+    gap: 64px;
+  }
+
+  footer h2 {
+    text-align: left;
+  }
+
+  footer img {
+    object-fit: cover;
+    object-position: center;
   }
 }
