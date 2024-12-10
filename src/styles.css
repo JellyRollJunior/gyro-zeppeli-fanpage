@@ -43,8 +43,40 @@ html {
 }
 
 body {
+  position: relative;
   display: flex;
   justify-content: center;
+}
+
+/* pinwheel */
+.pinwheel-holder {
+  --skew: -23.5deg;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 700px;
+  width: 100%;  
+  z-index: -1;
+}
+
+.pinwheel {
+  height: 100%;
+  transform: skewY(var(--skew));
+  transform-origin: bottom left;
+}
+
+.pinwheel.layer-one {
+  background-color: #ddbda9;
+  box-shadow: 2px 2px 8px rgb(60, 60, 60);
+}
+
+.pinwheel.layer-two {
+  background-color: #6f794b;
+}
+
+.pinwheel.layer-three {
+  background-color: #6f3582;
 }
 
 .wrapper {
@@ -52,10 +84,6 @@ body {
 }
 
 /* header */
-header {
-  position: relative;
-}
-
 header,
 section {
   padding: 32px 42px;
@@ -92,36 +120,6 @@ h2 {
   margin-top: 28px;
   text-align: center;
   font-size: 2.3rem;
-}
-
-.pinwheel-holder {
-  --skew: -23.5deg;
-
-  position: absolute;
-  left: 0;
-  bottom: 50%;
-  height: 100%;
-  width: 100%;
-  z-index: -1;
-}
-
-.pinwheel {
-  height: 100%;
-  transform: skewY(var(--skew));
-  transform-origin: bottom left;
-}
-
-.pinwheel.layer-one {
-  background-color: #ddbda9;
-  box-shadow: 2px 2px 8px rgb(60, 60, 60);
-}
-
-.pinwheel.layer-two {
-  background-color: #6f794b;
-}
-
-.pinwheel.layer-three {
-  background-color: #6f3582;
 }
 
 .link-holder {
@@ -217,6 +215,10 @@ h3 {
 
 /* Tablet styling */
 @media (min-width: 760px) and (max-width: 1099px) {
+  .pinwheel-holder {
+    height: 500px;
+  }
+
   h1 {
     font-size: 2.8rem;
     top: 24px;
@@ -257,11 +259,6 @@ h3 {
     font-size: 1rem;
   }
 
-  .pinwheel-holder {
-    --skew: -9deg;
-    bottom: 25%;
-  }
-
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -269,6 +266,10 @@ h3 {
 
 /* Tablet AND desktop styling */
 @media (min-width: 760px) {
+  .pinwheel-holder {
+    --skew: -15deg;
+  }
+
   .about {
     padding: 1px 24px;
     background-color: white;
@@ -286,6 +287,10 @@ h3 {
 
 /* Desktop styling */
 @media (min-width: 1100px) {
+  .pinwheel-holder {
+    height: 800px;
+  }
+
   header {
     display: flex;
     align-items: center;
@@ -304,11 +309,6 @@ h3 {
 
   .about > h2 {
     text-align: left;
-  }
-
-  .pinwheel-holder {
-    --skew: -15deg;
-    bottom: 0;
   }
 
   .gallery {
