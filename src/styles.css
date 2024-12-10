@@ -147,6 +147,10 @@ a.link.icon-instagram {
   background-image: url(./icons/icons8-instagram-60.png);
 }
 
+section {
+  margin-bottom: 42px;
+}
+
 .gallery {
   --min-card-width: 300px;
   --title-height: 24px;
