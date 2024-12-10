@@ -152,13 +152,9 @@ section {
 }
 
 .gallery {
-  --min-card-width: 300px;
-  --title-height: 24px;
-  --description-height: 70px;
-
   display: grid;
   gap: 70px 54px;
-
+  
   margin-top: 18px;
 }
 
@@ -169,11 +165,11 @@ section {
   box-shadow: 2px 2px 8px rgb(60, 60, 60);
 }
 
-.card.row-span-2 {
+.card.height-2 {
   grid-row: span 2;
 }
 
-.card.col-span-end {
+.card.width-end {
   grid-column-start: 1;
   grid-column-end: -1;
 }
@@ -186,7 +182,7 @@ section {
 }
 
 .card > .info {
-  padding: 16px 24px;
+  padding: 16px 20px 0 20px;
   min-height: 270px;
 }
 
@@ -266,7 +262,7 @@ h3 {
     justify-content: end;
   }
 
-  .card.col-span-2 {
+  .card.width-2 {
     grid-column: span 2;
   }
 }
