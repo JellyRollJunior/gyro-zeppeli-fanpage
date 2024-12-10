@@ -44,13 +44,16 @@ body {
 }
 
 .wrapper {
-  --main-horizontal-padding: 42px;
   max-width: 2000px;
 }
 
 header {
   position: relative;
-  padding: 32px var(--main-horizontal-padding);
+}
+
+header,
+section {
+  padding: 32px 42px;
 }
 
 .frame {
@@ -142,10 +145,6 @@ a.link.icon-linkedin {
 
 a.link.icon-instagram {
   background-image: url(./icons/icons8-instagram-60.png);
-}
-
-section {
-  padding: 0px var(--main-horizontal-padding);
 }
 
 .gallery {
