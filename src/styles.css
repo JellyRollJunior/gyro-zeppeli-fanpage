@@ -244,9 +244,7 @@ footer {
   gap: 24px;
   width: 100vw;
   padding: 42px 42px 64px 42px;
-
-
-  background-color: white;
+  background-color: #e8e2f8;
 }
 
 .contact-info > * {
