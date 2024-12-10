@@ -153,7 +153,6 @@ a.link.icon-instagram {
   --description-height: 70px;
 
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(var(--min-card-width), 1fr));
   gap: 70px 54px;
 
   margin-top: 18px;
@@ -206,7 +205,7 @@ h3 {
 }
 
 /* Tablet styling */
-@media (min-width: 600px) and (max-width: 1099px) {
+@media (min-width: 700px) and (max-width: 1099px) {
   h1 {
     font-size: 2.8rem;
     top: 24px;
@@ -245,10 +244,14 @@ h3 {
     --skew: -9deg;
     bottom: 25%;
   }
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Tablet AND desktop styling */
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   .about {
     padding: 1px 24px;
     background-color: white;
@@ -257,6 +260,10 @@ h3 {
 
   .link-holder {
     justify-content: end;
+  }
+
+  .card.col-span-2 {
+    grid-column: span 2;
   }
 }
 
@@ -287,16 +294,6 @@ h3 {
     bottom: 0;
   }
 
-  .gallery {
-    --min-card-width: 350px;
-  }
-
-  .card.col-span-2 {
-    grid-column: span 2;
-  }
-}
-
-@media (min-width: 1300px) {
   .gallery {
     grid-template-columns: repeat(3, 1fr);
   }
