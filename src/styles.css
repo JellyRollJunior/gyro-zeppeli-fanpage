@@ -42,18 +42,15 @@ html {
   font-size: 20px;
 }
 
-
-body {
-  background-position: 50% -80%;
-  background-image: url(./images/gyro-floral-tall.jpg);
-  background-color: rgba(255,255,255,0.7);
-  background-blend-mode: lighten;
-}
-
 body {
   position: relative;
   display: flex;
   justify-content: center;
+
+  background-position: 50% -80%;
+  background-image: url(./images/gyro-floral-tall.jpg);
+  background-color: rgba(255,255,255,0.7);
+  background-blend-mode: lighten;
 }
 
 /* pinwheel */
@@ -118,6 +115,13 @@ h1 {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
   text-shadow: 5px 5px 5px black;
+}
+
+.about {
+  margin-top: 32px;
+  padding: 1px 24px;
+  background-color: white;
+  box-shadow: 2px 2px 8px rgb(60, 60, 60);
 }
 
 .about > * {
@@ -288,12 +292,6 @@ h3 {
 @media (min-width: 760px) {
   .pinwheel-holder {
     --skew: -15deg;
-  }
-
-  .about {
-    padding: 1px 24px;
-    background-color: white;
-    box-shadow: 2px 2px 8px rgb(60, 60, 60);
   }
 
   .link-holder {
