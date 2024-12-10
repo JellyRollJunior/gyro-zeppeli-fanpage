@@ -200,12 +200,15 @@ section {
 
 h3 {
   font-size: 1.5rem;
+  margin-left: 12px;
 }
 
 .card-title {
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  margin-bottom: 12px;
 }
 
 .card-title a {
