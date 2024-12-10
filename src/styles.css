@@ -357,6 +357,14 @@ footer img {
   .card.width-2 {
     grid-column: span 2;
   }
+
+  footer p {
+    font-size: 1.5rem;
+  }
+
+  footer h3 {
+    font-size: 1.3rem;
+  }
 }
 
 /* Desktop styling */
@@ -406,5 +414,9 @@ footer img {
   footer img {
     object-fit: cover;
     object-position: center;
+  }
+
+  footer .link-holder {
+    justify-content: start;
   }
 }
