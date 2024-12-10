@@ -162,12 +162,17 @@ a.link.icon-instagram {
 .card {
   display: flex;
   flex-direction: column;
-  
+
   border: 2px solid black;
 }
 
 .card.row-span-2 {
   grid-row: span 2;
+}
+
+.card.col-span-end {
+  grid-column-start: 1;
+  grid-column-end: -1;
 }
 
 .card > img {
