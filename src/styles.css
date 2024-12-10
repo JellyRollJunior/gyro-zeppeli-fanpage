@@ -227,7 +227,7 @@ h3 {
   }
 
   .frame {
-    --frame-width: 300px;
+    --frame-width: 330px;
 
     width: var(--frame-width);
     margin-right: 24px;
