@@ -148,7 +148,7 @@ a.link {
   height: var(--link-button-size);
   padding: 0;
   border: none;
-  background-color: white;
+  background-color: inherit;
   background-size: cover;
 }
 
