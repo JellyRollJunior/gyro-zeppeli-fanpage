@@ -151,6 +151,11 @@ a.link.icon-instagram {
   background-image: url(./icons/icons8-instagram-60.png);
 }
 
+a.link.icon-open-in-new {
+  --link-button-size: 42px;
+  background-image: url(./icons/open-in-new.png);
+}
+
 section {
   margin-bottom: 42px;
 }
