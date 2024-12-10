@@ -38,6 +38,10 @@ h6 {
   overflow-wrap: break-word;
 }
 
+html {
+  font-size: 20px;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -73,7 +77,7 @@ h1 {
   left: 10px;
 
   color: white;
-  font-size: 6.5rem;
+  font-size: 4.5rem;
   line-height: 1.1;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
@@ -87,11 +91,7 @@ h1 {
 h2 {
   margin-top: 28px;
   text-align: center;
-  font-size: 3rem;
-}
-
-p {
-  font-size: 1.8rem;
+  font-size: 2.3rem;
 }
 
 .pinwheel-holder {
@@ -131,7 +131,7 @@ p {
 }
 
 a.link {
-  --link-button-size: 60px;
+  --link-button-size: 40px;
   width: var(--link-button-size);
   height: var(--link-button-size);
   padding: 0;
@@ -153,17 +153,13 @@ a.link.icon-instagram {
 }
 
 a.link.icon-open-in-new {
-  --link-button-size: 42px;
+  --link-button-size: 32px;
   background-image: url(./icons/open-in-new.png);
 }
 
 /* gallery */
 section {
   margin-bottom: 42px;
-}
-
-section > h2 {
-  font-size: 4rem;
 }
 
 .gallery {
@@ -203,11 +199,7 @@ section > h2 {
 }
 
 h3 {
-  font-size: 2rem;
-}
-
-.info > p {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .card-title {
@@ -230,7 +222,8 @@ h3 {
   }
 
   .frame {
-    --frame-width: 325px;
+    --frame-width: 300px;
+    height: 370px;
 
     width: var(--frame-width);
     margin-right: 24px;
@@ -238,6 +231,7 @@ h3 {
   }
 
   .frame > img {
+    height: 100%;
     object-fit: cover;
     object-position: 0 20%;
   }
