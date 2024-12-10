@@ -280,3 +280,9 @@ h3 {
     grid-column: span 2;
   }
 }
+
+@media (min-width: 1300px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
