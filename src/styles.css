@@ -47,6 +47,7 @@ body {
   max-width: 2000px;
 }
 
+/* header */
 header {
   position: relative;
 }
@@ -156,6 +157,7 @@ a.link.icon-open-in-new {
   background-image: url(./icons/open-in-new.png);
 }
 
+/* gallery */
 section {
   margin-bottom: 42px;
 }
@@ -174,6 +176,7 @@ section > h2 {
   margin-top: 18px;
 }
 
+/* card */
 .card {
   box-shadow: 2px 2px 8px rgb(60, 60, 60);
 }
