@@ -197,16 +197,18 @@ section h2 {
 }
 
 .gallery {
-  --card-height: 900px;
-
   display: grid;
-  grid-auto-rows: var(--card-height);
   gap: 70px 54px;
 
   margin-top: 18px;
 }
 
 /* card */
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
 .card.height-2 {
   grid-row: span 2;
 }
@@ -217,15 +219,15 @@ section h2 {
 }
 
 .card > img {
-  height: 70%;
   width: 100%;
   object-fit: cover;
   object-position: center;
 }
 
 .card > .info {
-  padding: 16px 20px 0 20px;
-  height: 30%;
+  flex: 1;
+
+  padding: 16px 20px 45px 20px;
   background-color: white;
 }
 
