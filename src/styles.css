@@ -392,6 +392,10 @@ footer img {
     padding: 42px 56px;
   }
 
+  h1 {
+    font-size: 5rem;
+  }
+
   .frame {
     min-width: 500px;
     margin: 0;
