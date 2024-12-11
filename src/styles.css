@@ -115,7 +115,6 @@ section {
   position: relative;
   
   margin: 12px;
-  overflow: clip;
 }
 
 .frame > img {
