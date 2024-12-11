@@ -260,6 +260,10 @@ footer {
   background-color: #e8e2f8;
 }
 
+.contact-info {
+  max-width: 420px;
+}
+
 .contact-info > * {
   margin-left: 0;
 }
