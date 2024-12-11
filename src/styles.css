@@ -240,6 +240,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 
   gap: 24px;
   width: 100vw;
@@ -253,11 +254,7 @@ footer {
 
 footer h2 {
   margin-top: 0;
-  font-size: 2.5rem;
-}
-
-footer p {
-  font-size: 1.3rem;
+  font-size: 2rem;
 }
 
 footer h3 {
@@ -271,11 +268,8 @@ footer .link-holder {
   margin-bottom: 48px;
 }
 
-footer a.link {
-  --link-button-size: 60px;
-}
-
 footer img {
+  width: min(100vw - 20px, 550px);
   box-shadow: 2px 2px 8px rgb(60, 60, 60);
 }
 
@@ -286,8 +280,8 @@ footer img {
   }
 
   body {
-    background-position: 40% 165%;
-    background-image: url(./images/gyro-floral-tall.jpg);
+    background-image: url(./images/gyro-floral.png);
+    background-position: 40% 0%;
   }
 
   h1 {
@@ -356,12 +350,9 @@ footer img {
     grid-column: span 2;
   }
 
-  footer p {
-    font-size: 1.5rem;
-  }
-
-  footer h3 {
-    font-size: 1.3rem;
+  footer {
+    flex-direction: row;
+    gap: 64px;
   }
 }
 
