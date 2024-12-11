@@ -55,6 +55,11 @@ body {
   background-blend-mode: lighten;
 }
 
+/* General styles */
+.shadow {
+  box-shadow: 2px 2px 8px rgb(60, 60, 60);
+}
+
 /* pinwheel */
 .pinwheel-holder {
   --skew: -23.5deg;
@@ -75,7 +80,6 @@ body {
 
 .pinwheel.layer-one {
   background-color: #ddbda9;
-  box-shadow: 2px 2px 8px rgb(60, 60, 60);
 }
 
 .pinwheel.layer-two {
@@ -98,7 +102,6 @@ section {
 
 .frame {
   position: relative;
-  box-shadow: 2px 2px 8px rgb(60, 60, 60);
   margin: 12px;
 }
 
@@ -123,7 +126,6 @@ h1 {
   margin-top: 32px;
   padding: 1px 24px;
   background-color: white;
-  box-shadow: 2px 2px 8px rgb(60, 60, 60);
 }
 
 .about > * {
@@ -192,10 +194,6 @@ section h2 {
 }
 
 /* card */
-.card {
-  box-shadow: 2px 2px 8px rgb(60, 60, 60);
-}
-
 .card.height-2 {
   grid-row: span 2;
 }
@@ -270,7 +268,6 @@ footer .link-holder {
 
 footer img {
   width: min(100vw - 20px, 550px);
-  box-shadow: 2px 2px 8px rgb(60, 60, 60);
 }
 
 /* Tablet styling */
