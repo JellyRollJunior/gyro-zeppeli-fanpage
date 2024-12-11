@@ -113,7 +113,9 @@ section {
 
 .frame {
   position: relative;
+  
   margin: 12px;
+  overflow: clip;
 }
 
 .frame > img {
@@ -126,7 +128,7 @@ h1 {
   left: 10px;
 
   color: white;
-  font-size: 4.5rem;
+  font-size: 2.8rem;
   line-height: 1.1;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
