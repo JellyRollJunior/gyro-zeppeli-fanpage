@@ -369,6 +369,10 @@ footer img {
     flex-direction: row;
     gap: 64px;
   }
+
+  footer img {
+    width: min(50vw - 20px, 550px);
+  }
 }
 
 /* Desktop styling */
@@ -413,11 +417,6 @@ footer img {
 
   footer h2 {
     text-align: left;
-  }
-
-  footer img {
-    object-fit: cover;
-    object-position: center;
   }
 
   footer .link-holder {
