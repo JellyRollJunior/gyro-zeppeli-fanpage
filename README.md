@@ -1,5 +1,5 @@
 <h1 align="center">Gyro Zeppeli Fanpage</h1>
-<h3 align="center">Enjoy artwork of Steel Ball Run by Hirohiko Araki in an online gallery!</h3>
+<h3 align="center">Enjoy artwork of Steel Ball Run by Hirohiko Araki in an online gallery <a href='https://jellyrolljunior.github.io/gyro-zeppeli-fanpage'>here</a>!</h3>
 
 <img width="" alt="" src="./project-images/desktop-2560.png">
 
