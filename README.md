@@ -30,10 +30,10 @@
 
 <img width="" alt="" src="./project-images/responsive-demo.gif">
 
-|   | Mobile | Tablet | Laptop  | Desktop  |
-| - |  ----- |  ----- |  ------ |  ------- |
-| Resolution | 425px  | 768px  | 1440px  | 2560px   |
-|      | <img width="" alt="" src="./project-images/mobile-425.png"> | <img width="" alt="" src="./project-images/tablet-768.png"> | <img width="" alt="" src="./project-images/laptop-1440.png"> | <img width="" alt="" src="./project-images/desktop-2560.png"> |
+| Mobile | Tablet | Laptop  | Desktop  |
+|  ----- |  ----- |  ------ |  ------- |
+| 425px  | 768px  | 1440px  | 2560px   |
+| <img width="" alt="" src="./project-images/mobile-425.png"> | <img width="" alt="" src="./project-images/tablet-768.png"> | <img width="" alt="" src="./project-images/laptop-1440.png"> | <img width="" alt="" src="./project-images/desktop-2560.png"> |
 
 ## Retrospective (aka yapping)
 
